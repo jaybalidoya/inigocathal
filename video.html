@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video | Jay Balidoya</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/jpg"> <!-- Favicon --> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> <!-- Font Source -->
+</head>
+<body>
+    <td colspan="3" width = 1500>
+        <nav>
+           <a href="index.html">HOME</a>  
+           <a href="about.html">ABOUT</a>  
+           <a href="video.html">VIDEO</a>  
+        </nav>
+    </td>
+
+    <!-- Tables -->
+
+    <table class="center">
+        <tr>
+          <td>Members</th>
+          <th>Jayson Balidoya</th>
+          <th>Ramil Aceron</th>
+          <th>Jemuel Nasol</th>
+        </tr>
+        <tr>
+          <td>Projects</td>
+          <th colspan="3">Short Film "Pandemya"</td>
+        </tr>
+        <tr>
+          <td>Due Date</td>
+          <th colspan="3">October 22, 2021</td>
+        </tr>
+        <tr>
+          <td>Output</td>
+          <th colspan="3"> <a href="https://www.youtube.com/watch?v=jjvwHN61_Q4" class="view" >Video</a></td>
+        </tr>
+      </table>
+
+      <!-- Images -->
+
+      <img class= img src="images/pandemya.png" alt="Pandemya Mp4" style="width:355px;height:199px;">
+
+      <!-- Videos -->
+      <video controls autoplay>
+        <source src="video\Pandemya (Short Film).mp4" type="video/mp4">
+        <source src="video\Pandemya (Short Film).ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+      
+
+</body>
+<style>
+    body {
+      background-image: url('images/shorty2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    a {
+        color: rgb(221, 185, 24);
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        font-size: 200%;
+        left: 50px;
+        top: 30px;
+    }
+
+    table, th, td { 
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100%;
+        border: 1px solid rgb(171, 67, 202); 
+        border-collapse: collapse;
+    } 
+    th, td { 
+        padding: 10px; 
+        text-align: center;
+    } 
+    td { 
+        background-color: rgb(201, 108, 201);
+    } 
+    .center {
+        margin-left: 1%;
+        margin-right: 50%;
+        margin-top: 5%;
+    }
+    .view {
+        color: black;
+        text-align: center;
+        font-size: 100%;
+        left: 0px;
+        top: 0px;
+    }
+    .img {
+        position: absolute;
+        left: 130px;
+        top: 290px;
+    }
+    video {
+        position: absolute;
+        left: 16%;
+        top: 400px;
+        height: 400px;
+        width: 470px;
+        transform:translateX(-50%);
+    }
+</style>
+</html>
